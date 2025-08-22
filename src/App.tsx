@@ -53,8 +53,8 @@ function App() {
       tags: ["HTML5", "CSS", "JS", "Bootstrap"],
       image:
         "https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-4d78-61f7-9a10-0dde53528f7c/raw?se=2025-08-22T08%3A55%3A54Z&sp=r&sv=2024-08-04&sr=b&scid=ad389469-8f14-5229-b599-3a424e98413f&skoid=71e8fa5c-90a9-4c17-827b-14c3005164d6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-21T21%3A28%3A19Z&ske=2025-08-22T21%3A28%3A19Z&sks=b&skv=2024-08-04&sig=kqEWjC9tYyFPDM/mCck3vDOKQuTDBP29MaiadPE0pf4%3D",
-      githubLink: "https://github.com/aratiekatpure/Multi-Theme-Switcher",
-      liveLink: "https://aratiekatpure.github.io/Multi-Theme-Switcher/",
+      githubLink: "https://aratiekatpure.github.io/Sliders_Task_Demo/",
+      liveLink: "https://github.com/aratiekatpure/Sliders_Task_Demo",
     },
     {
       title: "Sadad Landing Page",
