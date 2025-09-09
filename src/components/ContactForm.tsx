@@ -67,42 +67,38 @@ const ContactForm = () => {
                 <div>
                   <input
                     type="text"
-                    name="user_name" // ✅ required for EmailJS
+                    name="name"
                     placeholder="Name"
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="..."
                   />
                 </div>
                 <div>
                   <input
                     type="email"
-                    name="user_email" // ✅ required for EmailJS
+                    name="email"
                     placeholder="Email"
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="..."
                   />
                 </div>
                 <div>
                   <input
                     type="text"
-                    name="subject" // optional
+                    name="subject"
                     placeholder="Subject"
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="..."
                   />
                 </div>
                 <div>
                   <textarea
-                    name="message" // ✅ required for EmailJS
+                    name="message"
                     placeholder="Message..."
-                    rows={4}
                     required
-                    className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  ></textarea>
+                    className="..."
+                  />
                 </div>
-                <button
-                  type="submit"
-                  className="w-full bg-[#0f172a] text-white py-2 px-4 rounded-lg hover:bg-[#1e3a8a] transition-colors"
-                >
+                <button type="submit" className="...">
                   Send Message
                 </button>
               </form>
