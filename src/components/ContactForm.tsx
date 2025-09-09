@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-// src/components/ContactForm.tsx
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
@@ -109,7 +107,7 @@ const ContactForm = () => {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="bg-blue-500 text-white px-4 py-2 rounded w-full hover:bg-blue-600 disabled:opacity-50"
+                  className="bg-black text-white px-4 py-2 rounded w-full hover:bg-blue-600 disabled:opacity-50"
                 >
                   {loading ? "Sending..." : "Send Message"}
                 </button>
