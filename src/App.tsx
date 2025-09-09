@@ -49,10 +49,10 @@ function App() {
     {
       title: "Sliders_Task_Demo",
       description:
-        "Implemented a responsive image/content slider with smooth animations, navigation arrows, autoplay, and mobile-friendly design using HTML, CSS, and JavaScript.",
+        "Implemented a responsive image/content slider with smooth animations, navigationusing HTML, CSS, and JavaScript.",
       tags: ["HTML5", "CSS", "JS", "Bootstrap"],
       image:
-        "https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-4d78-61f7-9a10-0dde53528f7c/raw?se=2025-08-22T08%3A55%3A54Z&sp=r&sv=2024-08-04&sr=b&scid=ad389469-8f14-5229-b599-3a424e98413f&skoid=71e8fa5c-90a9-4c17-827b-14c3005164d6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-21T21%3A28%3A19Z&ske=2025-08-22T21%3A28%3A19Z&sks=b&skv=2024-08-04&sig=kqEWjC9tYyFPDM/mCck3vDOKQuTDBP29MaiadPE0pf4%3D",
+        "https://images.unsplash.com/photo-1721475246144-98e4f01f3a6c?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       githubLink: "https://github.com/aratiekatpure/Sliders_Task_Demo",
       liveLink: "https://aratiekatpure.github.io/Sliders_Task_Demo/",
     },
@@ -63,13 +63,13 @@ function App() {
       image:
         "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000",
       githubLink: "https://github.com/aratiekatpure/SADAD.git",
-      liveLink: "http://127.0.0.1:5500/project/abc/index.html",
+      liveLink: "https://aratiekatpure.github.io/SADAD/",
     },
     {
-      title: "E-commerce Landing Page",
+      title: "Cardify",
       description:
         "A responsive Landing listing page with filtering and cart functionality.",
-      tags: ["React", "TypeScript", "TailwindCSS"],
+      tags: ["React"],
       image:
         "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=1000",
       target: "_blank",
@@ -257,7 +257,8 @@ function App() {
             </div>
             <div className="flex space-x-4 mt-8">
               <a
-                href="#contact"
+                href="https://www.linkedin.com/in/arati-ekatpure-531910235"
+                target="_blank"
                 className="px-8 py-3 bg-blue-500 text-white rounded-lg font-semibold hover:bg-blue-600 transition-colors"
               >
                 Hire me
