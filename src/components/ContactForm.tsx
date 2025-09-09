@@ -9,13 +9,13 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_ntd6uwm", // Replace with your EmailJS Service ID
-        "template_7jhfy0k", // Replace with your EmailJS Template ID
-        e.currentTarget,
-        "BWAhNgMEjZIygQE7t" // Replace with your Public Key
+        "service_ntd6uwm", // ✅ Your EmailJS Service ID
+        "template_7jhfy0k", // ✅ Your EmailJS Template ID
+        e.currentTarget, // ✅ Pass the form
+        "BWAhNgMEjZIygQE7t" // ✅ Your Public Key
       )
       .then(
-        (result) => {
+        () => {
           alert("Message sent successfully!");
         },
         (error) => {
@@ -28,34 +28,6 @@ const ContactForm = () => {
   };
 
   return (
-    // <form onSubmit={sendEmail} className="space-y-4 max-w-md mx-auto">
-    //   <input
-    //     type="text"
-    //     name="name"
-    //     required
-    //     placeholder="Your Name"
-    //     className="w-full border p-2"
-    //   />
-    //   <input
-    //     type="email"
-    //     name="email"
-    //     required
-    //     placeholder="Your Email"
-    //     className="w-full border p-2"
-    //   />
-    //   <textarea
-    //     name="message"
-    //     required
-    //     placeholder="Your Message"
-    //     className="w-full border p-2"
-    //   ></textarea>
-    //   <button
-    //     type="submit"
-    //     className="bg-blue-500 text-white px-4 py-2 rounded"
-    //   >
-    //     Send Message
-    //   </button>
-    // </form>
     <section id="contact" className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Get In Touch</h2>
@@ -85,6 +57,8 @@ const ContactForm = () => {
                 </p>
               </div>
             </div>
+
+            {/* ✅ The actual form */}
             <div>
               <h3 className="text-xl font-semibold mb-4 text-[#0f172a]">
                 Send Message
@@ -93,28 +67,35 @@ const ContactForm = () => {
                 <div>
                   <input
                     type="text"
+                    name="user_name" // ✅ required for EmailJS
                     placeholder="Name"
+                    required
                     className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   />
                 </div>
                 <div>
                   <input
                     type="email"
+                    name="user_email" // ✅ required for EmailJS
                     placeholder="Email"
+                    required
                     className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   />
                 </div>
                 <div>
                   <input
                     type="text"
+                    name="subject" // optional
                     placeholder="Subject"
                     className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   />
                 </div>
                 <div>
                   <textarea
+                    name="message" // ✅ required for EmailJS
                     placeholder="Message..."
                     rows={4}
+                    required
                     className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   ></textarea>
                 </div>
